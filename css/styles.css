@@ -408,6 +408,7 @@ background-color:  #F4F4FD;
   letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
+  margin-bottom: 16px;
 
 }
 
@@ -421,6 +422,8 @@ background-color:  #F4F4FD;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   width: 265px;
+  margin-block-end:0px;
+  margin-block-start:0px;
 }
 
 .social-foot {
@@ -446,7 +449,7 @@ background-color:  #F4F4FD;
   color: #fff;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
+  margin-bottom: 16px;
 }
 
 .foot-social-links {
