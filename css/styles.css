@@ -408,6 +408,7 @@ background-color:  #F4F4FD;
   letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
   text-transform: uppercase;
   color: var(--IRIS, #4d5ae5);
+
 }
 
 .left-blok {
@@ -445,7 +446,7 @@ background-color:  #F4F4FD;
   color: #fff;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
+  
 }
 
 .foot-social-links {
