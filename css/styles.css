@@ -139,8 +139,20 @@ img {
 .nav-item-mobile:hover,
 .nav-item-mobile:focus,
 .menu-mobile .active {
-  color:404bbf;}
-  
+  color:404bbf;
+}
+.mobile-social-links{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.mobile-social-links .icon {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
+}
   
 
   
