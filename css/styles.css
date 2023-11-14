@@ -153,6 +153,20 @@ img {
   height: 24px;
   fill: #f4f4fd;
 }
+.hero-section {
+  background: #2e2f42;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/peopleOffice.jpg");
+  max-width: 768px;
+}
   
 
   
