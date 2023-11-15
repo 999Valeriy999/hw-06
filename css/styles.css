@@ -243,7 +243,6 @@ gap: 24px;
   
 
 .list-benefits {
-  display: flex;
   gap: 72px;
   align-items: flex-start;
 }
