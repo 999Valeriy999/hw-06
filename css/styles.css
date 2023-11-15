@@ -76,15 +76,22 @@ img {
 .logo-accent {
   color: #2e2f42;
 }
-.mobile-open-btn{
+.close-mobile {
+  position: absolute;
   display: flex;
-  justify-content: center;
   align-items: center;
-  cursor: pointer;
-  fill: #2f2f37;
-  background: transparent;
-  outline: none;
-  border: none;
+  justify-content: center;
+  top: 24px;
+  right: 24px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   cursor: pointer;
+   background-color: #e7e9fc;
 }
 .link{
   display: none;
@@ -119,6 +126,11 @@ img {
   left: 0;
   transition: 0.5s;
   padding: 72px 16px 40px 16px;
+}
+.modal-close-icon {
+.width: 8px;
+height: 8px;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-top {
