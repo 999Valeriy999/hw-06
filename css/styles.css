@@ -96,12 +96,13 @@ img {
   font-style: normal;
   display: none;
 }
-.address-link{
+.address-link {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
-  font-weight: 400;}
+  font-weight: 400;
+}
 
 .address-link:hover,
 .address-link:focus {
