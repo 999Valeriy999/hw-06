@@ -104,8 +104,8 @@ img {
   font-weight: 400;
 }
 
-.address-link:hover,
-.address-link:focus {
+.nav-item-mobile:hover,
+.nav-item-mobile:focus {
   color: #404bbf;
 }
 .menu-mobile-block {
