@@ -83,6 +83,14 @@ img {
 .address-link{
   display: none;
 }
+.mobile-open-btn {
+  border: none;
+  background-color: transparent;
+  padding:0;
+}
+.icon-menu{
+  stroke: #111;
+}
 .close-mobile {
   position: absolute;
   display: flex;
