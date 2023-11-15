@@ -234,10 +234,50 @@ gap: 24px;
 
 .button:focus {
   background-color: #404bbf;
-}
 
+}
+.section-benefits{
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
   
 
+.list-benefits {
+  display: inline-flex;
+  gap: 72px;
+  align-items: flex-start;
+}
+
+.benefits {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.benefits-icons {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 112px;
+margin-bottom: 8px;
+border-radius: 4px;
+border: 1px solid #8E8F99;
+background-color:  #F4F4FD;
+}
+
+.title-benefits {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  margin: 0;
+}
+
+.text-benefits {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
   
   
 
