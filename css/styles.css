@@ -261,7 +261,7 @@ screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-retio: 2) {
   .container {
-    background-image:url('../images/peopleOffice.jpg');
+   ;
     
 }
 }
