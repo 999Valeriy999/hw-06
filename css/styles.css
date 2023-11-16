@@ -209,7 +209,7 @@ height: 40px;
 display: flex;
 align-items: center;
 gap: 24px;
-margin-left: 16px;
+margin-left:auto;
 }
 .footer-social-link:hover
 .footer-social-link:focus{
