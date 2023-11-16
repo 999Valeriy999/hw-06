@@ -256,6 +256,17 @@ margin-left:auto;
     url("../images/peopleOffice.jpg");
   max-width: 768px;
 }
+@media 
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-retio: 2) {
+  .container {
+    background-image:url('../images/peopleOffice.jpg');
+    
+}
+}
+  
+
 
 .hero-title{
   color: #fff;
@@ -330,7 +341,9 @@ margin-left:auto;
   margin: 0;
   font-family: "Raleway", sans-serif;
 }
+
   
+
   
 
 
