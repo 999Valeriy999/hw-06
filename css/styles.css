@@ -553,3 +553,8 @@ margin-left:auto;
 .subscribe-btn:focus {
   background-color: #404bbf; 
 }
+.footer, .contain{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
