@@ -508,9 +508,8 @@ margin-left:auto;
   flex-shrink: 0;
 }
 
-.footer-subscribe{
-  margin-left: 80px;
-}
+.footer-subscribe
+ 
 .subscribe-title{
   font-size: 16px;
   font-weight: 500;
@@ -523,6 +522,7 @@ margin-left:auto;
   display: flex;
   gap: 24px;
   align-items: end;
+  flex-direction: column;
 }
 .footer-label{
   display: flex;
