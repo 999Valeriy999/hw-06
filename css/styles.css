@@ -558,3 +558,8 @@ margin-left:auto;
   flex-direction: column;
   margin: 0 auto;
 }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
