@@ -437,11 +437,31 @@ margin-left:auto;
   
 .photo-portfolio:hover .overlay,
 .photo-portfolio:focus .overlay {
- transform: translateY(0%);}
+ transform: translateY(0%);
+}
 
+.footer-color{
+  background-color:#2e2f42;
+  padding: 96px 0;
+}
+.left-blok{
+  margin-bottom: 72px; 
+}
 
-  
-
+.footer-logo {
+  color: #f4f4fd;
+} 
+.logo-foot {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
+  text-transform: uppercase;
+  color:#4d5ae5;
+  margin-bottom: 16px;
+}
   
 
 
