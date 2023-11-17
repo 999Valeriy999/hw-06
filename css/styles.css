@@ -774,17 +774,17 @@ textarea:focus {
   display: flex;
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
-  .hero {
+  .hero-section{
     background-image: linear-gradient(
         to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-768@2x.jpg);
+      url(../images/pepleoffice@2x.jpg);
   }
 }
 
-@media (min-width: 1158px)
+@media (min-width: 1158px){
   .section {
     padding: 120px 0;
   }
@@ -792,3 +792,11 @@ textarea:focus {
     min-width: 1158px;
     width: 1158px;
     padding: 0 15px; }
+}
+
+@media (min-width: 768px) {
+      .container {
+        min-width: 768px;
+        width: 768px;
+      }
+    }
