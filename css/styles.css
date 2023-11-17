@@ -460,7 +460,8 @@ margin-left:auto;
   letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
   text-transform: uppercase;
   color:#4d5ae5;
-  margin-bottom: 16px;
+  
+  
 }
 .text-footer{
   font-weight: 400;
@@ -556,4 +557,10 @@ margin-left:auto;
 .left-blok{
   margin-bottom: 72px;
 }
+.footer-color .logo-foot{
+display: block;
+margin-bottom: 17px;
+text-align: center;
+}
+
 
