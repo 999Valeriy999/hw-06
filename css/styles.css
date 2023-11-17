@@ -553,5 +553,7 @@ margin-left:auto;
 .subscribe-btn:focus {
   background-color: #404bbf; 
 }
-
+.left-blok{
+  margin-bottom: 72px;
+}
 
