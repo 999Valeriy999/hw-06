@@ -473,6 +473,16 @@ margin-left:auto;
 .social-foot {
   margin-bottom: 72px;
 }
+.foot-links{
+  font-size: 16px;
+  font-weight: 500;
+  color:#fff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
 .foot-social-links {
 
  display: flex;
