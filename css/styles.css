@@ -807,3 +807,16 @@ textarea:focus {
        min-width: 320px;
         width: 320px;}
     }
+
+@media screen and (mim-resolution: 192dpi),
+screen and (mim-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+ .hero-section { 
+    background-image: url("../images/pepleoffice@2x.jpg");
+}
+}
+
+
+
+
+
