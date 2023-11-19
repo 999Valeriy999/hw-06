@@ -202,12 +202,12 @@ img {
   width: 24px;
   height:24px;
 }
-
 .contain { 
- justify-content:space-between;
- position: relative;
- display: flex;
-}
+  justify-content:space-between;
+  position: relative;
+  display: flex;
+ }
+
 
 .close-mobile {
   position: absolute;
@@ -544,6 +544,13 @@ margin-top: 48px;
   background-color:#2e2f42;
   padding: 96px 0;
 }
+.foter-div {
+justify-content:space-between;
+position: relative;
+}
+    
+  
+
 
   
 
