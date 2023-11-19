@@ -194,6 +194,9 @@ img {
   line-height:0;
   justify-content: space-between;
 }
+.contain{
+  display: flex;
+}
 
 .icon-menu {
   stroke: #111;
