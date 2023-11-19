@@ -146,9 +146,8 @@ img {
 
 
 
-.nav-link {
-display: none;
-}
+
+
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
