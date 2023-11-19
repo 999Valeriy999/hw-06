@@ -114,6 +114,19 @@ img {
     display:none;
 }
 }
+@media (min-width:767px) {
+  .nav-link{
+    color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  transform:  250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+}
+
 
 .link-list.active {
   position: relative;
