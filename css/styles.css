@@ -108,11 +108,12 @@ img {
   gap: 40px;
   display: flex;
 }
-@media screen and (max-width: 767px) {
-  .address-link {
-    display: none;
-  }
+@media screen (max-width:767px) {
+  .address-link{
+    display:none;
 }
+}
+
 .link-list.active {
   position: relative;
 }
