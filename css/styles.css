@@ -60,7 +60,8 @@ img {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-  }}
+  }
+}
 
 .line {
   border-bottom: 1px solid #e7e9fc;
@@ -108,7 +109,7 @@ img {
   display: flex;
 }
 @media screen and (max-width: 767px) {
-  .address-link{
+  .address-link {
     display: none;
   }
 }
