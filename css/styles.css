@@ -39,6 +39,8 @@ img {
  padding: 96px 0;
  margin: 0 auto;
 }
+.list {
+  list-style: none;}
 
 .container {
   max-width: 320px;
