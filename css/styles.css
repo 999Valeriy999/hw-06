@@ -194,9 +194,8 @@ img {
   line-height:0;
   justify-content: space-between;
 }
-.contain{
-  display: flex;
-}
+
+
 
 .icon-menu {
   stroke: #111;
@@ -204,11 +203,10 @@ img {
   height:24px;
 }
 
-.contain {
-  
- display: flex;
+.contain { 
  justify-content:space-between;
  position: relative;
+ display: flex;
 }
 
 .close-mobile {
