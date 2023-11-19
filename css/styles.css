@@ -72,6 +72,7 @@ img {
   padding-bottom: 16px;
 }
 
+
 .container .line{
   display: flex;
   flex-direction: row;
@@ -106,6 +107,11 @@ img {
   gap: 40px;
   display: flex;
 }
+@media screen and (max-width: 767px) {
+  .link-list {
+    display: none;
+  }
+}
 .link-list.active {
   position: relative;
 }
@@ -122,11 +128,6 @@ img {
 }
 
 
-@media screen and (max-width: 767px) {
-  .link-list {
-    display: none;
-  }
-}
 
 
 .nav-link {
@@ -141,6 +142,15 @@ img {
   flex-wrap: wrap;
   gap: 40px;
 }
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+
+.link-adress {
+  
+ padding: 16px 0;
+  flex-direction: column;
+  gap: 12px;}
+}
+
 
 .address-link{
   font-style: normal;
@@ -157,6 +167,17 @@ img {
 .address-link:focus {
   color: #404bbf;
 }
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .address-link {
+    padding: 0;
+    font-size: 12px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+  }
+}
+
+
 
 
 
