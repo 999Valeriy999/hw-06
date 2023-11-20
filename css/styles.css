@@ -441,7 +441,7 @@ margin-top: 48px;
 }
 }
 @media screen and (min-resolution:192dpi) and (min-width: 768px), 
- screen and  (min-resolution:2dppx) and (min-width: 768px),
+  screen and  (min-resolution:2dppx) and (min-width: 768px),
  screen and ( min-device-pixel-retio:2) and (min-width: 768px) {
  .hero-section {
   background-image: url("../images/bgtab@2x.jpg");
@@ -510,6 +510,7 @@ margin-top: 48px;
   background-color: #404bbf;
 
 }
+
 .section-benefits {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -548,10 +549,25 @@ margin-top: 48px;
 }
 
 @media (max-width:767px) {
-  .benefits-icons {
+  .list-benefits {
     display:none;
 }
 }
+@media screen and (min-width: 768px) {
+  .container {
+   width: 768px;
+  
+   
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+   width: 1158px;
+  }
+}
+
+
+
 .our-team{
   padding: 96px 0;
   margin: 0 auto;
