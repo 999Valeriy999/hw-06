@@ -382,7 +382,60 @@ margin-top: 48px;
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/peopleOffice.jpg");
+
 }
+@media screen and (min-resolution:192dpi), 
+ screen and  (min-resolution:2dppx),
+ screen and( min-device-pixel-retio:2) {
+ .hero-section {
+  background-image: url("../images/bgmob@2x.jpg");
+  
+}}
+
+@media screen and (min-width: 320px) {
+  .hero-section {
+    background-image: url("../images/bgmob@1x.jpg");
+   
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    background-image: url("../images/bgtab@1x.jpg")
+   
+  }
+}
+@media screen and (min-width: 1158px) {
+ .hero-section {
+    background-image: url("../images/bglap@1x.jpg")
+   
+  }
+}
+@media screen and (min-resolution:192dpi)and (min-width: 320px), 
+ screen and  (min-resolution:2dppx), (min-width: 320px),
+ screen and( min-device-pixel-retio:2),(min-width: 320px) {
+ .hero-section {
+  background-image: url("../images/bgmob@2x.jpg");
+  
+}
+}
+@media screen and (min-resolution:192dpi)and (min-width: 768px), 
+ screen and  (min-resolution:2dppx), (min-width: 768px),
+ screen and( min-device-pixel-retio:2),(min-width: 768px) {
+ .hero-section {
+  background-image: url("../images/bgtab@2x.jpg");
+  
+}
+}
+
+@media screen and (min-resolution:192dpi)and (min-width: 1158px), 
+ screen and  (min-resolution:2dppx), (min-width: 1158px),
+ screen and( min-device-pixel-retio:2),(min-width: 1158px) {
+ .hero-section {
+  background-image: url("../images/bglap@2x");
+  
+}}
+
+
 
     
  
