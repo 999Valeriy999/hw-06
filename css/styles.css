@@ -320,10 +320,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .mobile-open-btn{
 display: none;
 }
-.social-mobile{
-  display: none;
 }
-}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;}
 
 .footer-social-link{
   display: flex;
