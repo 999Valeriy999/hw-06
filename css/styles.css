@@ -185,7 +185,7 @@ img {
 display: none;
 }
 }
-@media screen and (max-width: 1158px) {
+@media screen and (min-width: 1158px) {
 .link-adress {
   display: inline-flex;
   margin-top: 16px;
@@ -465,6 +465,12 @@ margin-top: 48px;
   letter-spacing: 0.02em;
   margin: 0;
   font-family: "Raleway", sans-serif;
+}
+
+@media (max-width:767px) {
+  .icon-section {
+    display:none;
+}
 }
 .our-team{
   padding: 96px 0;
