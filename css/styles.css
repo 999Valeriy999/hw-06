@@ -560,7 +560,7 @@ margin-top: 48px;
   }
   
   .list-benefits {
-    display: flex;
+    flex-direction: row;
     gap: 24px;
   }
   
