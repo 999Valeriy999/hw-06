@@ -187,8 +187,8 @@ display: none;
 }
 @media screen and (max-width: 1158px) {
 .link-adress {
-    display: inline-flex;
-    margin-top: 16px;
+  display: inline-flex;
+  margin-top: 16px;
     
      
   }
