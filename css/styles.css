@@ -549,7 +549,7 @@ margin-top: 48px;
 }
 
 @media (max-width:767px) {
-  .list-benefits {
+  .benefits-icons {
     display:none;
 }
 }
