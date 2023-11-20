@@ -114,6 +114,7 @@ img {
 }
 .link-list{
   gap: 40px;
+  display: inline-block;
  
 }
 .nav-link {
@@ -200,7 +201,6 @@ display: none;
 }
 
 .link-adress{
-  display: flex;
   flex-wrap: wrap;
   gap: 40px;
 }
