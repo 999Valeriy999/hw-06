@@ -112,10 +112,11 @@ img {
 .navigator {
   align-items: center;
   gap: 76px;
+  margin-top: 16px;
 }
 .link-list{
   gap: 40px;
-  display: flex;
+ 
 }
 
 
