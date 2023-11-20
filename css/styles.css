@@ -187,15 +187,11 @@ display: none;
 }
 @media screen and (min-width: 1158px) {
 .link-adress {
-  display: inline-flex;
+  
   margin-top: 16px;
-  margin-left: 330px;
-}
-.address-link {
-  gap:40;
+  margin-left: 40px;
 }
 }
-
 
 
 
