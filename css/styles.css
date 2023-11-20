@@ -185,10 +185,8 @@ img {
 display: none;
 }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1158px) {
 .link-adress {
-    flex-wrap: wrap;
-    gap: 40px;
     display: inline-flex;
     margin-top: 16px;
     
