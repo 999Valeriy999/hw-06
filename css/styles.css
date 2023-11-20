@@ -294,8 +294,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .mobile-menu-top {
  flex-grow: 1;
 }
+.nav-item-mobile {
 
-.{
   display: flex;
   gap: 40px;
   flex-direction: column;
@@ -316,6 +316,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color:#4d5ae5;
 }
 }
+@media (min-width:768px){
+.mobile-open-btn{
+display: none;
+}}
 
 .footer-social-link{
   display: flex;
