@@ -411,16 +411,16 @@ margin-top: 48px;
   }
 }
 @media screen and (min-resolution:192dpi)and (min-width: 320px), 
- screen and  (min-resolution:2dppx), (min-width: 320px),
- screen and( min-device-pixel-retio:2),(min-width: 320px) {
- .hero-section {
+ screen and  (min-resolution:2dppx) and (min-width: 320px),
+ screen and(min-device-pixel-retio:2) and (min-width: 320px) {
+  .hero-section {
   background-image: url("../images/bgmob@2x.jpg");
   
 }
 }
-@media screen and (min-resolution:192dpi)and (min-width: 768px), 
- screen and  (min-resolution:2dppx), (min-width: 768px),
- screen and( min-device-pixel-retio:2),(min-width: 768px) {
+@media screen and (min-resolution:192dpi) and (min-width: 768px), 
+ screen and  (min-resolution:2dppx) and (min-width: 768px),
+ screen and ( min-device-pixel-retio:2) and (min-width: 768px) {
  .hero-section {
   background-image: url("../images/bgtab@2x.jpg");
   
@@ -428,8 +428,8 @@ margin-top: 48px;
 }
 
 @media screen and (min-resolution:192dpi)and (min-width: 1158px), 
- screen and  (min-resolution:2dppx), (min-width: 1158px),
- screen and( min-device-pixel-retio:2),(min-width: 1158px) {
+ screen and  (min-resolution:2dppx) and (min-width: 1158px),
+ screen and( min-device-pixel-retio:2) and (min-width: 1158px) {
  .hero-section {
   background-image: url("../images/bglap@2x.jpg");
   
