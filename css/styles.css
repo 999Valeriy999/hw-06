@@ -189,12 +189,13 @@ display: none;
 .link-adress {
   display: inline-flex;
   margin-top: 16px;
-  gap: 40px;
   margin-left: 330px;
-    
-     
-  }
 }
+.address-link {
+  gap:40;
+}
+}
+
 
 
 
