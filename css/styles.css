@@ -388,7 +388,7 @@ margin-top: 48px;
  screen and  (min-resolution:2dppx),
  screen and( min-device-pixel-retio:2) {
  .hero-section {
-  background-image: url("../images/bgmob@2x.jpg");
+  background-image: url("../images/bgmob@1x.jpg");
   
 }}
 
@@ -431,7 +431,7 @@ margin-top: 48px;
  screen and  (min-resolution:2dppx), (min-width: 1158px),
  screen and( min-device-pixel-retio:2),(min-width: 1158px) {
  .hero-section {
-  background-image: url("../images/bglap@2x");
+  background-image: url("../images/bglap@2x.jpg");
   
 }}
 
