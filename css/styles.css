@@ -618,8 +618,10 @@ margin-top: 48px;
 }
 .list-team{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px 24px;
 }
 .list-color{
   background-color:#fff;
