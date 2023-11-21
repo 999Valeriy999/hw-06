@@ -788,6 +788,15 @@ position: relative;
     flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 1158px) {
+  .portfolio {
+    display: flex;
+    gap: 24px;
+    
+    
+  }
+}
+
 
     
   
