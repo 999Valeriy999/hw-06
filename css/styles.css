@@ -708,7 +708,9 @@ margin-top: 48px;
   }
   .team {
   margin-bottom: 72px;
-
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 }
 
