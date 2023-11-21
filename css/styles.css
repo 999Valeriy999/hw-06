@@ -565,10 +565,6 @@ margin-top: 48px;
     gap: 24px;
   }
   
-
-  .benefits {
-    flex-basis: calc((100% - 72px) / 4);
-  }
   
   .benefits-icons {
    display: flex;
@@ -596,6 +592,11 @@ margin-top: 48px;
     letter-spacing: 0.02em;
     margin: 0;
   } 
+}
+@media screen and (min-width: 1158px) {
+  .benefits {
+    flex-basis: calc((100% - 72px) / 4);
+  }
 }
 
 
