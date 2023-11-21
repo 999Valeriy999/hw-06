@@ -718,7 +718,9 @@ margin-top: 48px;
 .list-team{
   display: flex;
   gap: 24px;
-}}
+ }
+}
+
   
   
   .portfolio {
@@ -1106,5 +1108,5 @@ textarea:focus {
   
 }
 
-+
+
 
