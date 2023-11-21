@@ -549,11 +549,7 @@ margin-top: 48px;
   font-family: "Raleway", sans-serif;
 }
 
-@media (max-width:767px) {
-  .benefits-icons {
-    display:none;
-}
-}
+
 @media screen and (min-width: 768px) {
   .section-benefits {
     padding-top: 120px;
@@ -594,8 +590,13 @@ margin-top: 48px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
+
   } 
+  .benefits-icons {
+    display:none;
+  }
 }
+
 
 .benefits {
   flex-basis: calc((100% - 72px) / 4);
