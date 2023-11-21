@@ -715,7 +715,7 @@ margin-top: 48px;
 }
 
 @media screen and (min-width: 1158px) {
-.list-team {
+ .list-team {
 
   display: flex;
   gap: 24px;
@@ -725,7 +725,7 @@ margin-top: 48px;
 
   
   
-  .portfolio {
+.portfolio {
     display: flex;
     gap: 24px;
     column-gap: 24px;
