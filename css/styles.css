@@ -593,11 +593,10 @@ margin-top: 48px;
     margin: 0;
   } 
 }
-@media screen and (min-width: 1158px) {
-  .benefits {
-    flex-basis: calc((100% - 72px) / 4);
-  }
+.benefits {
+  flex-basis: calc((100% - 72px) / 4);
 }
+
 
 
 
