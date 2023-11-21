@@ -714,11 +714,10 @@ margin-top: 48px;
  }
 }
 
-@media screen and (min-width: 1158px) {
- .list-team {
-
-  display: flex;
-  gap: 24px;
+@media (min-width: 1158px){
+  .list-team {
+    display: flex;
+    gap: 24px
   }
 }
 
