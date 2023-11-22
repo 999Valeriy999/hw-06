@@ -515,10 +515,7 @@ margin-top: 48px;
  gap:72px
 }
 
-.benefits {
-  flex-basis: calc((100% - 24px) / 2);
-  gap: 72px;
-}
+
 
 .title-benefits {
   font-weight: 500;
@@ -581,12 +578,19 @@ margin-top: 48px;
     margin: 0;
 
   } 
-  
+  .benefits {
+    flex-basis: calc((100% - 24px) / 2);
+    gap: 72px;
+  }
 }
+
 @media screen and (max-width: 1157px) {
   .benefits-icons {
     display:none;
+ 
   }
+  
+
 }
 
 .benefits {
