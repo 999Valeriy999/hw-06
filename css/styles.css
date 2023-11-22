@@ -773,20 +773,16 @@ position: relative;
 @media screen and (min-width: 768px) {
   .portfolio {
     display: flex;
-    gap: 24px;
-    column-gap: 24px;
-    row-gap: 48px;
-    flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 64px 24px;
   }
+  .photo-portfolio {
+    width: calc((100% - 24px) / 2);
 }
-@media screen and (min-width: 1158px) {
-  .portfolio {
-    display: flex;
-    gap: 24px;
-    
-    
-  }
 }
+
 
 .footer-logo {
   color: #f4f4fd;
