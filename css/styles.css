@@ -579,10 +579,14 @@ margin-top: 48px;
 
   } 
   .benefits {
+  
     flex-basis: calc((100% - 24px) / 2);
-    gap: 72px;
   }
+
 }
+
+
+
 
 @media screen and (max-width: 1157px) {
   .benefits-icons {
@@ -592,10 +596,14 @@ margin-top: 48px;
   
 
 }
+@media screen and (min-width: 1158px) {
+  .benefits {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  
 
-.benefits {
-  flex-basis: calc((100% - 72px) / 4);
 }
+
 
 .our-team{
   padding: 96px 0;
