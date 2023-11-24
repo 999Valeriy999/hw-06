@@ -284,8 +284,7 @@ background-color: #404bbf;
   z-index: 99999999999;
   
 }
-.menu-mobile-block.is-open{
-  transform: translateX(0%);
+
 }
 
 .modal-close-icon {
