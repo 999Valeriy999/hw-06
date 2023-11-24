@@ -300,10 +300,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .mobile-menu-top {
  flex-grow: 1;
 }
-.mobile-menu-top{
+.mobile-menu-list{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 24px;
+  margin-bottom: 48px;
 }
 
 .nav-item-mobile {
