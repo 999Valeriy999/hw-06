@@ -256,6 +256,8 @@ display: none;
   z-index: 99999999999;
   padding: 72px 16px 40px 16px;
   transform: translateX(100%);
+  top:0;
+  left:0;
 }
 
 .menu-mobile-block.is-open{
