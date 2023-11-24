@@ -769,6 +769,8 @@ margin-top: 48px;
 .foter-div {
 justify-content:space-between;
 position: relative;
+display: flex;
+flex-direction: column;
 }
 @media screen and (min-width: 768px) {
   .portfolio {
@@ -802,7 +804,8 @@ position: relative;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
   text-transform: uppercase;
-  color:#4d5ae5;  
+  color:#4d5ae5;
+  text-align: center; 
 }
 
 .text-footer{
@@ -926,6 +929,8 @@ position: relative;
 
 .left-blok{
   margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal-close {
