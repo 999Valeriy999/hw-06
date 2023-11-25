@@ -204,9 +204,11 @@ display: none;
   line-height:0;
   stroke: #2e2f42;
   top: 24px;
-  right:8px;
-  
-
+  right: 24px;
+  display: flex;
+  border-radius: 50%;
+ align-items: center;
+ justify-content: center;
   
 }
 
