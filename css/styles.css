@@ -310,10 +310,10 @@ display: none;
   padding: 0;
   width: 24px;
   height: 24px;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  background-color: #e7e9fc;
+  background-color: transparent;
+  line-height: 0%;
+  stroke: #2E2F42;
+  
   }
   .close-icon {
     width: 8px;
