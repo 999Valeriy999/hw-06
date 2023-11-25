@@ -201,9 +201,12 @@ display: none;
 .mobile-open-btn {
   border: none;
   background-color: transparent;
-  padding-top: 24px 0;
   line-height:0;
-  justify-content: space-between;
+  stroke: #2e2f42;
+  top: 24px;
+  right:8px;
+  
+
   
 }
 
