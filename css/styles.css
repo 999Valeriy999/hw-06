@@ -213,7 +213,11 @@ display: none;
 
  .btn-close { 
  position: relative;
- }
+ display: flex;
+ flex-direction: column;
+ margin-top: 40px;
+ margin-left: 16px;
+}
 
 
 .icon-menu {
@@ -266,7 +270,6 @@ display: none;
   height: 100%;
   background:#f4f4fd;
   z-index: 99999999999;
-  padding: 72px 16px 40px 16px;
   transform: translateX(100%);
   top:0;
   left:0;
@@ -277,10 +280,10 @@ display: none;
 }
 
 .mobile-menu-list{
-  display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
+  margin-top: 168px;
+  margin-left: 16px;
 }
 
 
