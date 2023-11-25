@@ -201,8 +201,7 @@ display: none;
 .mobile-open-btn {
   border: none;
   background-color: transparent;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 24px 0;
   line-height:0;
   justify-content: space-between;
   
