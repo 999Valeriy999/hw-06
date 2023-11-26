@@ -952,7 +952,7 @@ flex-direction: column;
 
 
 
-.backdrop .is-hidden {
+.backdrop, .is-hidden {
   position: fixed;
   top: 0;
   left: 0; 
@@ -982,7 +982,7 @@ flex-direction: column;
    background-color: #e7e9fc;
 } 
 .modal {
-  position:fixed;
+  position:absolute;
   left: 50%;
   top: 50%;
   transform: scale(1) translate(-50%, -50%);
