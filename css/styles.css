@@ -1166,6 +1166,21 @@ textarea:focus {
  }
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-btn-close{
+    display: none;
+   }
+  .nav-mobile {
+    display: none;
+   }
+  .address-link-mobile {
+    display: none;  
+   }
+  .mobile-social-links {
+    display: none;
+   }
+  }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
