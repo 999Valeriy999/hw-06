@@ -559,7 +559,7 @@ button {
   background-color: #404bbf; 
 }
 
-.backdrop, .is-hidden {
+.backdrop.is-hidden {
   position: fixed;
   top: 0;
   left: 0; 
