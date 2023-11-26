@@ -306,7 +306,7 @@ display: none;
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-left:auto;
+  margin-left: 16px;;
   margin-top: 48px;
   
  }
@@ -731,7 +731,7 @@ height: 40px;
     gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
-    flex-wrap: wrap;
+    flex-wrap:transform wrap;
 }
 
 .our-portfolio {
