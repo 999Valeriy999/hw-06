@@ -958,6 +958,7 @@ foot-social-links:hover,
   .foter-div {
    display: flex;
    align-items: center;
+   position: relative;
   }
  .left-blok {
    margin-right: 120px;
