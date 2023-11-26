@@ -213,14 +213,6 @@ display: none;
   
 }
 
- .btn-close { 
- position: relative;
- display: flex;
- flex-direction: column;
- margin-top: 40px;
- margin-left: 16px;
- 
-}
 .mobile-btn-close {
   position: relative;
 }
@@ -290,11 +282,11 @@ display: none;
   left:0;
   transform: translateX(100%);
 }
-.menu-mobile-block .is-open {
- transform: translateX(0%);
-}
 
 
+.menu-mobile-block.is-open {
+  transform: translateX(0%);
+ }
 
 .mobile-menu-list{
   flex-direction: column;
@@ -357,6 +349,7 @@ display: none;
 .mobile-open-btn{
  display: none;
  } 
+ 
 }
 
 
