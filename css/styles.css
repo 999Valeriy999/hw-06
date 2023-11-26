@@ -741,7 +741,7 @@ height: 40px;
     gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
-    flex-wrap:transform wrap;
+    flex-wrap:wrap;
 }
 
 .our-portfolio {
