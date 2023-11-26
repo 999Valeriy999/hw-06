@@ -281,13 +281,17 @@ display: none;
 }
 
 .menu-mobile-block {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   background:#f4f4fd;
   z-index: 99999999999;
   top:0;
   left:0;
+  transform: translateX(100%);
+}
+.menu-mobile-block .is-open {
+ transform: translateX(0%);
 }
 
 
