@@ -224,8 +224,8 @@ display: none;
 }
 .mobile-button{
   position: absolute;
-  top:0;
-  right:0;
+  top:24px;
+  right:24px;
   border:none;
   background-color: transparent;
   padding: 0;
@@ -240,7 +240,9 @@ display: none;
   cursor: pointer;
    background-color: #e7e9fc;
 }
-
+.nav-mobile{
+  margin-top: 72px;
+}
    
 
 .link{
