@@ -217,7 +217,7 @@ display: none;
   position: relative;
 }
 .mobile-button{
-  position: absolute;
+  position: fixed;
   top:24px;
   right:24px;
   border:none;
