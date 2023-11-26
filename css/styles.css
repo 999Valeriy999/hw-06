@@ -963,35 +963,6 @@ foot-social-links:hover,
  .left-blok {
    margin-right: 120px;
   } 
- .social-foot {
-   align-items: baseline;
- }
- .foot-social-link {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 16px;
-   flex-shrink: 0;
- }
-
-
-
- .footer-subscribe {
-   margin-left: 80px;
- }
- .footer-form {
-   display: flex;
-   gap: 24px;
-   align-items: end;
-
- }
- 
-
- .subscribe-icon {
-   margin-left: 16px;
-   width: 24px;
-   height: 24px;
- }
 }
 
 
