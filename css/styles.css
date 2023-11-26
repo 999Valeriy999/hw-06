@@ -1158,9 +1158,13 @@ textarea:focus {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+} 
+
+@media screen and (min-width: 768px) {
+.modal {
+  width: 408px;
+ }
 }
-
-
 
 .visually-hidden {
   position: absolute;
@@ -1174,6 +1178,8 @@ textarea:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
 
 
 
