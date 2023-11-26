@@ -954,7 +954,7 @@ foot-social-links:hover,
 .foot-social-links:focus {
   background-color: #31d0aa;
 }
-@media screen and( min-width:1158px) {
+@media screen and (min-width:1158px) {
   .foter-div {
    display: flex;
    align-items: center;
@@ -962,29 +962,29 @@ foot-social-links:hover,
   }
  .left-blok {
    margin-right: 120px;
- } 
+  } 
  .social-foot {
    align-items: baseline;
-}
-.foot-social-link {
+ }
+ .foot-social-link {
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 16px;
    flex-shrink: 0;
-}
+ }
 
 
 
-.footer-subscribe {
+ .footer-subscribe {
    margin-left: 80px;
-}
-.footer-form {
+ }
+ .footer-form {
    display: flex;
    gap: 24px;
    align-items: end;
 
-}
+ }
  
 
  .subscribe-icon {
