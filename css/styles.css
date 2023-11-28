@@ -380,7 +380,7 @@ height: 40px;
 
 
 .footer-social-link:hover
-.footer-social-link:focus{
+.footer-social-link:focus {
   background-color: #404bbf;
 }
 
@@ -662,6 +662,7 @@ height: 40px;
   color: #2e2f42;
   margin-bottom: 8px; 
 }
+
 .work-position{
   text-align: center;
   color:#434455;
@@ -896,7 +897,6 @@ height: 40px;
   background-color: #404bbf; 
 }
 
-
 .foot-social-links:hover,
 .foot-social-links:focus {
   background-color: #31d0aa;
@@ -958,6 +958,7 @@ height: 40px;
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
   .foter-div {
     gap: 72px 24px;
     display: flex;
@@ -982,6 +983,11 @@ height: 40px;
     display: block;
     margin-bottom: 16px;
   }
+
+  .subscribe-title {
+    text-align: left;
+  }
+  
 }
     
   .text-footer {
@@ -992,6 +998,19 @@ height: 40px;
     color: #F4F4FD;
     max-width: 288px;
     text-align: left;
+  }
+  
+  .foot-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 @media screen and (min-width:1158px) {
@@ -1006,18 +1025,7 @@ height: 40px;
   .social-foot {
     align-items: baseline;
   }
-  .foot-social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  
   .footer-subscribe {
     margin-left: 80px;
   }
