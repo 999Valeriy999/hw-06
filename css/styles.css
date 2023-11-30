@@ -1027,6 +1027,9 @@ height: 40px;
   .social-foot {
     align-items: baseline;
   }
+  .foot-links{
+    text-align: left;
+  }
   
   .footer-subscribe {
     margin-left: 80px;
