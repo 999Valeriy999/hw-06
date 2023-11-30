@@ -152,11 +152,11 @@ img {
   color: #404bbf;
 }
 
-.link .active {
+.nav-link .active {
   position: relative;
 }
 
-.link .active::after {
+.nav-link .active::after {
   position: absolute;
   display: block;
   border-radius: 2px;
