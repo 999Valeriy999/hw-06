@@ -1031,23 +1031,26 @@ height: 40px;
   .footer-subscribe {
     margin-left: 80px;
   }
-    .footer-form {
-      display: flex;
-      gap: 24px;
-      align-items: end;
-    }
+  .footer-form {
+    display: flex;
+    gap: 24px;
+    align-items: end;
+  }
     
-    .footer-label {
-      display: flex;
-      flex-direction: column;
-      font-size: 16px;
-      font-weight: 500;
-      color: #fff;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-      gap: 16px;
-      color: #ffffff;
-    }
+  .footer-label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    gap: 16px;
+    color: #ffffff;
+  }
+  .subscribe-title{
+   text-align: left;
+  }
 }
 
 .backdrop.is-hidden {
