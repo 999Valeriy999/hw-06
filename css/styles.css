@@ -152,7 +152,7 @@ img {
   color: #404bbf;
 }
 
-.link-list.active {
+.link-list .active {
   position: relative;
 }
 
