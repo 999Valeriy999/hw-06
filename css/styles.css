@@ -151,6 +151,11 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
+
+.link .active {
+  position: relative;
+}
+
 .link .active::after {
   position: absolute;
   display: block;
