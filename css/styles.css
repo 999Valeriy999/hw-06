@@ -237,6 +237,8 @@ display: none;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 24px;
+  height: 24px;
 }
 
 
@@ -493,7 +495,7 @@ height: 40px;
 .hero-title{
   color: #fff;
   font-family: Roboto;
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -501,6 +503,12 @@ height: 40px;
   margin: 0 auto;
   max-width: 288px;
   margin-bottom: 72px;
+}
+@media screen and( min-width:768px) {
+  .hero-title {
+    font-size: 56px;
+  }
+  
 }
 
 .button {
