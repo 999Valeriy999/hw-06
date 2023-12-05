@@ -682,6 +682,7 @@ height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .name{
@@ -769,7 +770,7 @@ height: 40px;
 }
 
 @media screen and (min-width: 1158px) {
-  .list-team {
+.list-team {
     display: flex;
     gap: 24px;
   } 
