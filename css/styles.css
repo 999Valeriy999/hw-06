@@ -665,7 +665,6 @@ height: 40px;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -679,6 +678,12 @@ height: 40px;
   align-self: center;
   margin-bottom: 72px;
 }
+.list-team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .name{
   padding: 32px 0;
@@ -689,7 +694,6 @@ height: 40px;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px; 
 }
