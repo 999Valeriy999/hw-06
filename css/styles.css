@@ -435,9 +435,8 @@ height: 40px;
     background-image: url("../images/bgmob@1x.jpg");
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-     url("../images/bgmob@1x.jpg")
+      rgba(46, 47, 66, 0.7)),
+     url("../images/bglap@1x.jpg")
    
   }
 }
