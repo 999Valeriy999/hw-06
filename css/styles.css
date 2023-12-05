@@ -566,6 +566,8 @@ height: 40px;
   margin-bottom: 8px;
   margin: 0;
   font-family: "Roboto";
+  gap: 8px;
+  text-align: center;
 }
 
 .text-benefits {
@@ -605,7 +607,7 @@ height: 40px;
   
   .title-benefits {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -637,13 +639,19 @@ height: 40px;
   
 
 }
+
 @media screen and (min-width: 1158px) {
   .benefits {
     flex-basis: calc((100% - 72px) / 4);
   }
   
+  .text-benefits {
+      font-size: 20px;
+    }
+    
+  
+  }
 
-}
 
 
 .our-team{
@@ -752,6 +760,7 @@ height: 40px;
   align-items: center;
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
  }
 }
 
@@ -759,7 +768,10 @@ height: 40px;
   .list-team {
     display: flex;
     gap: 64px 24px;
-  }  
+  } 
+  .team {
+    text-align: center;
+  } 
 } 
  
 .portfolio {
