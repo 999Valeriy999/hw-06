@@ -665,6 +665,8 @@ height: 40px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
+  
 }
 
 .list-color{
@@ -692,15 +694,6 @@ height: 40px;
   padding: 32px 0;
 }
 
-.name-team{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-  text-align: center; 
-}
 
 .work-position{
   text-align: center;
@@ -770,6 +763,14 @@ height: 40px;
   justify-content: space-evenly;
   text-align: center;
  }
+  .name-team{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+   margin-bottom: 8px;
+}
 }
 
 @media screen and (min-width: 1158px) {
@@ -782,6 +783,15 @@ height: 40px;
     display: flex;
     gap: 24px;
   } 
+  .name-team{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  
+  }
 } 
  
 .portfolio {
