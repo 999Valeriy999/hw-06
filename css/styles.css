@@ -671,6 +671,8 @@ height: 40px;
   background-color:#f4f4fd;
 }
 
+  
+
 .name-team{
   font-weight: 500;
   font-size: 20px;
@@ -820,6 +822,23 @@ height: 40px;
   margin: 0 auto;
   background-color:#fff;
 }
+.name-portfolio{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.work-portfolio {
+  color:#434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: left;
+}
 
 .overlay {
   padding: 40px, 32px;
@@ -865,6 +884,11 @@ height: 40px;
   .photo-portfolio {
     width: calc((100% - 24px) / 2);
   }
+  .service {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  
 }
 @media screen and (min-width: 1158px) {
   
@@ -952,6 +976,28 @@ height: 40px;
 
 .footer-input:focus {
   outline: none;
+}
+.footer-input {
+  background-color: #2e2f42;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.footer-input::placeholder {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2em;
+  letter-spacing: 0.04;
 }
 
 .subscribe-icon {
