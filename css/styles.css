@@ -233,8 +233,8 @@ img {
 
 .mobile-btn-close {
   position: relative;
-  margin-top: 72px;
-  margin-bottom: 40px;
+  padding-top: 72px;
+  padding-bottom: 40px;
 }
 .mobile-button{
   position: fixed;
@@ -501,14 +501,14 @@ height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   margin: 0 auto;
-  max-width: 288px;
+  max-width: 215px;
   margin-bottom: 72px;
 }
 @media screen and ( min-width:768px) {
   .hero-title {
     font-size: 56px;
-  }
-  
+    max-width: 496px;
+  }  
 }
 
 .button {
@@ -553,7 +553,7 @@ height: 40px;
 
 
 .title-benefits {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -570,7 +570,8 @@ height: 40px;
   letter-spacing: 0.02em;
   margin: 0;
   font-family: "Roboto";
-  font-size: 16px; 
+  font-size: 16px;
+  font-weight: 500; 
 }
 
 
@@ -623,15 +624,10 @@ height: 40px;
 
 }
 
-
-
-
 @media screen and (max-width: 1157px) {
   .benefits-icons {
     display:none;
- 
   }
-  
 
 }
 
@@ -639,21 +635,23 @@ height: 40px;
   .benefits {
     flex-basis: calc((100% - 72px) / 4);
   }
+  .title-benefits {
+    font-weight: 500;
+  }
   
   .text-benefits {
-      font-size: 20px;
-    }
+    font-size: 20px;
+    font-weight: 400;
+  }
     
-  
 }
-
-
 
 .our-team{
   padding: 96px 0;
   margin: 0 auto;
   background-color:#f4f4fd;
 }
+
 .team {
   text-align: center;
   display: flex;
