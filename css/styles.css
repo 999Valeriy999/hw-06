@@ -233,6 +233,8 @@ img {
 
 .mobile-btn-close {
   position: relative;
+  margin-top: 72px;
+  margin-bottom: 40px;
 }
 .mobile-button{
   position: fixed;
@@ -263,11 +265,7 @@ img {
   height: 24px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-mobile{
-  margin-top: 72px;
-}
    
-
 .link{
   display: inline-flex;
  flex-direction: column;
@@ -283,18 +281,11 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin-left:auto;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 20px; 
 }
 
-.address-link-mobile:hover,
-.address-link-mobile:focus {
-  color: #404bbf;
-}
 
-.nav-item-mobile:hover,
-.nav-item-mobile:focus {
-  color: #404bbf;
-}
 .menu-mobile {
   display: flex;
   flex-direction: column;
@@ -305,7 +296,7 @@ img {
   position: fixed;
   width: 100%;
   height: 100%;
-  background:#f4f4fd;
+  background:#ffffff;
   z-index: 99999999999;
   top:0;
   left:0;
@@ -321,7 +312,6 @@ img {
   flex-direction: column;
   gap: 24px;
   margin-top: 168px;
-  margin-left: 16px;
 }
 
 
@@ -334,6 +324,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.nav-studio{
+  color:404BBF;
+}
+
 .nav-item-mobile:hover,
 .nav-item-mobile:focus,
 .menu-mobile .active {
@@ -344,10 +338,10 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-left: 16px;;
   margin-top: 48px;
   
  }
+
  .modal-close {
   position: absolute;
   display: flex;
@@ -361,24 +355,19 @@ img {
   background-color: transparent;
   line-height: 0%;
   stroke: #2E2F42;
-  
   }
+
   .close-icon {
     width: 8px;
     height: 8px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
-
-
 }
  
-
 @media (min-width:768px){
 .mobile-open-btn{
  display: none;
- } 
- 
+ }  
 }
 
 
@@ -711,13 +700,13 @@ height: 40px;
 
 
 
-.name{
+.name {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 
-.work-position{
+.work-position {
   text-align: center;
   color:#434455;
   font-size: 16px;
@@ -726,7 +715,7 @@ height: 40px;
   margin-bottom: 8px;
 }
 
-.social-list{
+.social-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -799,7 +788,7 @@ height: 40px;
     display: flex;
     gap: 24px;
   } 
-  .name-team{
+  .name-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -823,7 +812,8 @@ height: 40px;
   margin: 0 auto;
   background-color:#fff;
 }
-.name-portfolio{
+
+.name-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -832,6 +822,7 @@ height: 40px;
   margin-bottom: 8px;
   text-align: left;
 }
+
 .work-portfolio {
   color:#434455;
   font-size: 16px;
@@ -857,8 +848,7 @@ height: 40px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   overflow: auto;
 }
-  
-  
+   
 .portfolio-show-wrapper {  
  position: relative;
  overflow: hidden;
@@ -896,10 +886,7 @@ height: 40px;
   .photo-portfolio {
     width: calc((100% - 48px) / 3);
  }
-}
-
-
-  
+}  
 
 .footer-logo {
   color: #f4f4fd;
@@ -917,7 +904,7 @@ height: 40px;
   text-align: center; 
 }
 
-.foot-links{
+.foot-links {
   font-size: 16px;
   font-weight: 500;
   color:#fff;
@@ -935,7 +922,7 @@ height: 40px;
   flex-shrink: 0;
 }
 
-.subscribe-title{
+.subscribe-title {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -945,7 +932,7 @@ height: 40px;
   text-align: center;
 }
 
-.subscribe-btn{
+.subscribe-btn {
   font-family: 'Roboto', sans-serif;
   min-width: 165px;
   height: 40px;
@@ -970,6 +957,7 @@ height: 40px;
 .footer-input:focus {
   outline: none;
 }
+
 .footer-input {
   background-color: #2e2f42;
   border: 1px solid #ffffff;
@@ -985,6 +973,7 @@ height: 40px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
+
 .footer-input::placeholder {
   color: #fff;
   font-weight: 400;
@@ -1009,14 +998,14 @@ height: 40px;
   background-color: #31d0aa;
 }
 
-@media screen and (min-width: 320px)and (max-width:767px){ 
+@media screen and (min-width: 320px)and (max-width:767px) { 
   .foter-div {
     justify-content:space-between;
     position: relative;
     display: flex;
     flex-direction: column;
   }
-  .left-blok{
+  .left-blok {
     margin-bottom: 72px;
     display: flex;
     flex-direction: column;
@@ -1034,7 +1023,7 @@ height: 40px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .footer-subscribe{
+  .footer-subscribe {
     margin-bottom: 72px;
   }
   .social-foot {
@@ -1047,7 +1036,7 @@ height: 40px;
     flex-direction: column;
   }
   
-  .footer-label{
+  .footer-label {
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -1060,7 +1049,8 @@ height: 40px;
     margin: auto;
   }
 }
-@media screen and (min-width: 768px)and (max-width:1157px){ 
+
+@media screen and (min-width: 768px)and (max-width:1157px) { 
   .footer-color {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1093,8 +1083,7 @@ height: 40px;
 
   .subscribe-title {
     text-align: left;
-  }
-  
+  } 
 }
     
 .text-footer {
@@ -1107,8 +1096,7 @@ height: 40px;
   text-align: left;
   margin: 0;
   margin-top: 16px;
-
-  }
+}
 
 .foot-social-links {
   display: flex;
@@ -1138,7 +1126,6 @@ height: 40px;
   .foot-links{
     text-align: left;
   }
-  
   .footer-subscribe {
     margin-left: 80px;
   }
@@ -1146,8 +1133,7 @@ height: 40px;
     display: flex;
     gap: 24px;
     align-items: end;
-  }
-    
+  } 
   .footer-label {
     display: flex;
     flex-direction: column;
@@ -1312,8 +1298,7 @@ textarea:focus {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
-  
+  color: #8e8f99;  
 }
 
 .user-privacy-span {
@@ -1329,7 +1314,6 @@ textarea:focus {
   justify-content: center;
   fill: transparent;
   gap: 8px;
- 
 }
 
 .user-privacy-span:checked {
@@ -1338,7 +1322,6 @@ textarea:focus {
 
 .user-privacy-icon {
   fill:#F4F4FD;
-
 }
 
 .check:checked + .user-privacy-label > .user-privacy-span {
@@ -1379,7 +1362,7 @@ textarea:focus {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-btn-close{
+  .mobile-btn-close {
     display: none;
    }
   .nav-mobile {
