@@ -569,6 +569,10 @@ height: 40px;
 
 @media screen and (min-width: 768px) {
   
+.title-benefits {
+  text-align: left;
+}
+
   .list-benefits {
     display: flex;
     flex-direction: row;
@@ -576,7 +580,6 @@ height: 40px;
     flex-wrap: wrap;
     gap: 64px 24px;
     }
-  
   
   .benefits-icons {
    display: flex;
@@ -588,7 +591,6 @@ height: 40px;
    border: 1px solid #8E8F99;
    background-color:  #F4F4FD;
   }
-  
   
   .text-benefits {
     line-height: 1.5;
@@ -617,16 +619,15 @@ height: 40px;
   .benefits {
     flex-basis: calc((100% - 72px) / 4);
   }
+
   .title-benefits {
     font-weight: 500;
     font-size: 20px;
-  
   }
   
   .text-benefits {
     font-weight: 400;
-  }
-    
+  }   
 }
 
 .our-team{
@@ -645,9 +646,7 @@ height: 40px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-  
+} 
 
 .name-team{
   font-weight: 500;
@@ -656,8 +655,7 @@ height: 40px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .list-color{
@@ -669,6 +667,7 @@ height: 40px;
   align-self: center;
   margin-bottom: 72px;
 }
+
 @media  screen and (min-width:320px) and (max-width:767px) {
   
  .list-team {
@@ -679,13 +678,10 @@ height: 40px;
  }
 }
 
-
-
 .name {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 
 .work-position {
   text-align: center;
@@ -756,7 +752,7 @@ height: 40px;
    letter-spacing: 0.02em;
    color: #2e2f42;
    margin-bottom: 8px;
-}
+ }
 }
 
 @media screen and (min-width: 1158px) {
