@@ -809,7 +809,7 @@ height: 40px;
   text-align: left;
 }
 .service {
- padding: 32px 16px;
+ padding: 16px 32px;
  border: 1px solid #e7e9fc;
  border-top: none;
 }
@@ -1391,6 +1391,6 @@ textarea:focus {
 
 
 
-';'
+
 
 
