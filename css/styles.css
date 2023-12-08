@@ -322,17 +322,12 @@ img {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-}
-
-.nav-studio{
-  color:404BBF;
-}
-
-.nav-item-mobile:hover,
-.nav-item-mobile:focus,
-.menu-mobile .active {
-  color:#4d5ae5;
  }
+
+ .nav-studio{
+  color:#404BBF;
+ }
+
 
  .mobile-social-links{
   display: flex;
