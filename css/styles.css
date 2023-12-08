@@ -808,6 +808,10 @@ height: 40px;
   margin-bottom: 8px;
   text-align: left;
 }
+.service {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .work-portfolio {
   color:#434455;
@@ -816,6 +820,7 @@ height: 40px;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   text-align: left;
+  font-weight: 400;
 }
 .photo-portfolio{
   border-radius: 0px 0px 4px 4px;
@@ -866,10 +871,7 @@ height: 40px;
   .photo-portfolio {
     width: calc((100% - 24px) / 2);
   }
-  .service {
-    margin-top: 32px;
-    margin-bottom: 32px;
-  }
+  
   
 }
 @media screen and (min-width: 1158px) {
