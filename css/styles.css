@@ -568,17 +568,13 @@ height: 40px;
 
 
 @media screen and (min-width: 768px) {
-  .section-benefits {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
   
   .list-benefits {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 64px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px 24px;
     }
   
   
@@ -613,12 +609,18 @@ height: 40px;
 }
 
 @media screen and (min-width: 1158px) {
+  .section-benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
   .benefits {
     flex-basis: calc((100% - 72px) / 4);
   }
   .title-benefits {
     font-weight: 500;
     font-size: 20px;
+  
   }
   
   .text-benefits {
