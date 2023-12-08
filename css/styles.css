@@ -593,14 +593,6 @@ height: 40px;
    background-color:  #F4F4FD;
   }
   
-  .title-benefits {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-  }
   
   .text-benefits {
     line-height: 1.5;
@@ -626,10 +618,10 @@ height: 40px;
   }
   .title-benefits {
     font-weight: 500;
+    font-size: 20px;
   }
   
   .text-benefits {
-    font-size: 20px;
     font-weight: 400;
   }
     
@@ -646,6 +638,11 @@ height: 40px;
   display: flex;
   justify-content: space-evenly;
   margin-bottom:72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
   
@@ -765,6 +762,7 @@ height: 40px;
   .team {
     text-align: center;
     margin-bottom: 72px;
+    
   } 
   .list-team {
     display: flex;
