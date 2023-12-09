@@ -15,7 +15,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
 }
 
@@ -67,6 +68,7 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
    width: 1158px;
+   padding: 0 15px;
   }
 }
 
@@ -92,8 +94,8 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
   text-transform: uppercase;
-  margin-top: 24px;
-  margin-bottom: 24px;  
+  padding-top: 17px;
+  padding-bottom: 17px;  
 }
 
 .logo-accent {
@@ -103,6 +105,8 @@ img {
 @media screen and (min-width: 768px) {
   .logo {
    margin-right: 120px;
+   padding-top: 24px;
+   padding-bottom: 24px;
   
    
   }
@@ -110,8 +114,8 @@ img {
  .navigator { 
   align-items: center;
   gap: 76px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
  }
 
  .link-list{
@@ -170,8 +174,8 @@ img {
   gap: 12px;
  }
  .link-adress{
-  margin-top: 16px;
-  margin-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
  }
 }
   
@@ -193,8 +197,8 @@ img {
 @media screen and (min-width: 1158px) {
 .link-adress {
   
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-left: 40px;
   display: flex;
   gap: 40px;
@@ -623,6 +627,7 @@ height: 40px;
   .title-benefits {
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 8px;
   }
   
   .text-benefits {
@@ -674,6 +679,7 @@ height: 40px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 72px;
  }
 }
 
@@ -790,7 +796,7 @@ height: 40px;
 }
 
 .our-portfolio {
-  margin: 96px 0;
+  padding: 96px 0;
   background-color:#fff;
 }
 
@@ -825,7 +831,7 @@ height: 40px;
 }
 
 .overlay {
-  padding: 40px, 32px;
+  padding: 40px 32px;
   background-color:  #4D5AE5;
   color: #F4F4FD;
   font-size: 16px;
@@ -894,7 +900,7 @@ height: 40px;
   letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
   text-transform: uppercase;
   color:#4d5ae5;
-  text-align: center; 
+  text-align: left; 
 }
 
 .foot-links {
@@ -1101,12 +1107,12 @@ height: 40px;
 
 @media screen and (min-width:1158px) {
   .footer-color {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .foter-div {
    display: flex;
-   align-items: center;
+   align-items: baseline;
    position: relative;
   }
  .left-blok {
@@ -1119,7 +1125,7 @@ height: 40px;
     text-align: left;
   }
   .footer-subscribe {
-    margin-left: 80px;
+    margin-left: auto;
   }
   .footer-form {
     display: flex;
