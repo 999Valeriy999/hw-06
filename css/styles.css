@@ -57,6 +57,7 @@ img {
    margin-right: auto;
    
   }
+  
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -84,8 +85,6 @@ img {
   justify-content:space-between;
   position: relative;
   display: flex;
-  padding-top: 17px;
-  padding-bottom: 17px;
 }
 
 .logo {
@@ -139,7 +138,7 @@ img {
   bottom: -1px;
   background-color: #404bbf; 
   content: '';
-}
+ }
 
  .link-list{
   gap: 40px;
@@ -201,6 +200,11 @@ img {
  .nav-link {
  display: none;
  }
+ .contain{
+  padding-top: 17px;
+  padding-bottom: 17px ;
+ }
+
 }
 
 @media screen and (min-width: 1158px) {
