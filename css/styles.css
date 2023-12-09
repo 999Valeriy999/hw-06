@@ -1037,6 +1037,7 @@ height: 40px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+  
 
   .social-foot {
     margin-bottom: 72px;
@@ -1060,6 +1061,7 @@ height: 40px;
     color: #ffffff;
     margin: auto;
   }
+  
 }
 
 @media screen and (min-width: 768px)and (max-width:1157px) { 
@@ -1071,6 +1073,9 @@ height: 40px;
     width: 584px;
     align-items: baseline;
     flex-wrap: wrap
+  }
+  .foot-links{
+  text-align: left;
   }
 
   .social-foot {
@@ -1136,7 +1141,8 @@ height: 40px;
   .social-foot {
     align-items: baseline;
   }
-  .foot-links{
+  .foot-links {
+  
     text-align: left;
   }
   .footer-subscribe {
