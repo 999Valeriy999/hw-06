@@ -177,7 +177,7 @@ img {
 @media (min-width:768px) {
   .link-list.active {
   position: relative;
-   }
+  }
   
   .link-list.active::after {
   position: absolute;
@@ -848,32 +848,6 @@ height: 40px;
   0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.overlay {
-  padding: 40px 32px;
-  background-color:  #4D5AE5;
-  color: #F4F4FD;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  overflow: auto;
-}
-   
-.portfolio-show-wrapper {  
- position: relative;
- overflow: hidden;
-}
-  
-.photo-portfolio:hover .overlay,
-.photo-portfolio:focus .overlay {
- transform: translateY(0%);
-}
 
 .footer-color{
   background-color:#2e2f42;
@@ -903,6 +877,33 @@ height: 40px;
   .photo-portfolio {
     width: calc((100% - 48px) / 3);
  }
+ .overlay {
+  padding: 40px 32px;
+  background-color:  #4D5AE5;
+  color: #F4F4FD;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  overflow: auto;
+ }
+   
+ .portfolio-show-wrapper {  
+ position: relative;
+ overflow: hidden;
+ }
+  
+ .photo-portfolio:hover .overlay,
+ .photo-portfolio:focus .overlay {
+ transform: translateY(0%);
+}
+
 }  
 
 .footer-logo {
@@ -918,7 +919,7 @@ height: 40px;
   letter-spacing: 0.03em; /* em, rem */ /* let.spa./ font-size */
   text-transform: uppercase;
   color:#4d5ae5;
-  text-align: left; 
+  text-align: center; 
 }
 
 .foot-links {
@@ -1077,6 +1078,9 @@ height: 40px;
     align-items: baseline;
     flex-wrap: wrap
   }
+  .logo-foot{
+    text-align: left;
+  }
   .foot-links{
   text-align: left;
   }
@@ -1141,6 +1145,10 @@ height: 40px;
  .left-blok {
    margin-right: 120px;
   } 
+  .logo-foot {
+   text-align: left;
+  }
+
   .social-foot {
     align-items: baseline;
   }
