@@ -872,7 +872,7 @@ height: 40px;
   
 .photo-portfolio:hover .overlay,
 .photo-portfolio:focus .overlay {
- transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .footer-color{
